@@ -1,0 +1,46 @@
+.footer-left > span {
+  font-size: large;
+  font-weight: 400;
+  padding: 0 20px 00;
+  cursor: pointer;
+  color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.footer-left > span:hover {
+  color: #1f80e0;
+  transition: 0.3s;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  padding: 30px;
+  background: #030b17;
+  justify-content: space-around;
+}
+
+.footer-right {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+.icons > a > i {
+  font-size: xx-large;
+  margin-left: 10px;
+  color: lightcoral;
+}
+
+.footer-right > span {
+  color: #919191;
+  font-size: 14px;
+  padding-bottom: 7px;
+  font-weight: 5000;
+}

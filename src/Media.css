@@ -1,0 +1,16 @@
+.media > img {
+  width: 250px;
+  border-radius: 5px;
+  margin-left: 7px;
+  border-bottom: 4px solid #1f80e0;
+}
+
+.media {
+  margin: 10px;
+  transition: transform 100ms;
+  cursor: pointer;
+}
+
+.media > img:hover {
+  transform: scale(1.09);
+}

@@ -1,0 +1,36 @@
+.mediaImage > img {
+  padding: 0px 10px 10px;
+  margin-top: 10px;
+}
+
+.mediaImage {
+  max-width: 768px;
+}
+
+.mediaAd {
+  display: flex;
+  background-color: #030b17;
+}
+.text > span {
+  margin-top: 20px;
+  font-size: 24px;
+  margin: 2px 0;
+  color: #fff;
+  text-shadow: 0 2px 4px rgb(0 0 0 / 20%);
+  font-weight: 600;
+}
+
+.text > p {
+  color: rgba(255, 255, 255, 0.6);
+  text-shadow: 0 2px 4px rgb(0 0 0 / 20%);
+}
+.text > h6 {
+  margin-top: 20px;
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.text {
+  padding: 60px;
+}
