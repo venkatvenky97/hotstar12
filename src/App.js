@@ -5,6 +5,12 @@ import Header from "./Header";
 import Media from "./Media";
 import MediaAd from "./MediaAd";
 
+const images=[
+  "https://img1.hotstarext.com/image/upload/f_auto,t_web_hs_1x/sources/r1/cms/prod/old_images/MOVIE/1352/1000081352/1000081352-h",
+  "https://img1.hotstarext.com/image/upload/f_auto,t_web_hs_3x/sources/r1/cms/prod/6201/896201-h",
+  "https://img1.hotstarext.com/image/upload/f_auto,t_web_hs_3x/sources/r1/cms/prod/2451/732451-h"
+]
+
 function App() {
   return (
     <div className="App">
@@ -14,11 +20,9 @@ function App() {
         <span className="span">Continue watch</span>
       </div>
       <div className="media-row">
-        <Media img="https://img1.hotstarext.com/image/upload/f_auto,t_web_hs_1x/sources/r1/cms/prod/old_images/MOVIE/1352/1000081352/1000081352-h" />
-        <Media img="https://img1.hotstarext.com/image/upload/f_auto,t_web_hs_3x/sources/r1/cms/prod/6201/896201-h" 
-        />
-        <Media img="https://img1.hotstarext.com/image/upload/f_auto,t_web_hs_3x/sources/r1/cms/prod/2451/732451-h" 
-        />
+    {
+      images.map(image==>(<Media img={image)/>)
+    }
         <Media img="https://img1.hotstarext.com/image/upload/f_auto,t_web_hs_3x/sources/r1/cms/prod/2521/602521-h"
          />
         <Media img="https://img1.hotstarext.com/image/upload/f_auto,t_web_hs_3x/sources/r1/cms/prod/1662/581662-h"
